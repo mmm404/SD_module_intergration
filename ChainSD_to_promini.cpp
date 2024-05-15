@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-const int chipSelect = 10; // Adjust this according to your shield
+const int chipSelect = 10; //varies
 
 void setup() {
     Serial.begin(9600);
